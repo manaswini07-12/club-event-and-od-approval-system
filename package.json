@@ -1,26 +1,15 @@
 {
-  "name": "club-event-and-od-approval-system",
+  "name": "club_event_od_management",
   "version": "1.0.0",
-  "description": "",
+  "description": "Club Event and OD Approval System - MERN Stack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/manaswini07-12/club-event-and-od-approval-system.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/manaswini07-12/club-event-and-od-approval-system/issues"
-  },
-  "homepage": "https://github.com/manaswini07-12/club-event-and-od-approval-system#readme",
   "dependencies": {
-    "bcrypt": "^6.0.0",
-    "express": "^5.2.1",
-    "mongoose": "^9.10.2"
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.0"
   }
 }
